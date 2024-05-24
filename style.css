@@ -1,0 +1,885 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* mainDiv */
+
+.mainDiv{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 2200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* side-pannel */
+.side-pannel{
+    left: 0;
+    top: -4px;
+    position: fixed;
+    height: 2200px;
+    width: 20%;
+    background-color: #121212f7;
+}
+
+/* Task-bar */
+.taskbar{
+    height: 160px;
+}
+
+/* Sidebar */
+.Div1{
+    margin: 20px 0 0 2.5%;
+   height: 140px;
+   width: 95%;
+   font-weight: 600;
+   color:#ffffff;
+   border-radius: 10px;
+   background-color:#090909da;
+}
+
+.logo{
+    margin:10px 10px 20px 10px ;  
+}
+.logo i{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.home{
+    margin:10px 0 20px 10px ;
+}
+.home:hover{
+    text-decoration: underline;
+}
+.home i{
+    margin-right: 15px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.search{
+    color:#7a7a7a;
+    margin-left: 10px;
+}
+.search:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.search i{
+    margin-right: 15px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+/* DIV2 */
+.Div2{
+    margin: 2.5px 0 0 2.5%;
+   height:1420px;
+   width: 95%;
+   border: 2px solid #191414 ;
+   font-weight: 600;
+   color: white;
+   border-radius: 10px;
+   background-color:#090909da;
+}
+
+.Div2{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.library{
+    margin:30px 30px 10px 50px ;
+}
+.library:hover{
+    text-decoration: underline;
+}
+.library i{
+    margin-right: 10px;
+}
+.artist{
+    margin:30px 30px 10px 50px ;
+}
+.artist:hover{
+    text-decoration: underline;
+}
+.artist i{
+    margin-right: 10px;
+}
+.likes{
+    margin:30px 30px 10px 50px ;
+}
+.likes:hover{
+    text-decoration: underline;
+}
+.likes i{
+    margin-right: 10px;
+}
+.play1{
+    margin:30px 0 10px 50px ;
+}
+.play1:hover{
+      text-decoration: underline;
+}
+.play i{
+    margin-right: 10px;
+}
+
+/* Main-Contener */
+
+.main-container{
+    width: 100%;
+    margin-left: 20%;
+    height: 2000px;
+    background-color: #121212f7;
+    flex-wrap: wrap;
+}
+.topbar{
+    top: -4px;
+    position: fixed;
+    background-color:#090909;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    align-items: center;
+}
+.topbar:hover{
+    background-color: #090909;
+}
+.Navbar{
+    position: fixed;
+    padding-left: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.topbar .pre-next-buttons{
+    position: fixed;
+    margin-right:35%;
+    margin-left: 30px;
+}
+.topbar .pre-next-buttons button{
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 2px solid #090909 ;
+    background-color: #090909;
+    margin-right: 10px;
+}
+.topbar .pre-next-buttons button:hover{
+    color: #ffffff;
+}
+
+.Navbar .prem{
+    margin-top: 15px;
+    color: #7a7a7a;
+} 
+.Navbar .prem:hover{
+    color: #ffffff;
+}
+
+.Navbar .prem a{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 20px;
+}
+.Navbar .prem a:hover{
+    color: #ffffff;
+}
+
+.Navbar .signin{
+    margin-top: 15px;
+    color: #7a7a7a;
+}
+.Navbar .signin:hover{
+    color: #ffffff;
+}
+
+.Navbar .signin a{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 20px;
+}
+.Navbar .signin a:hover{
+    color: #ffffff;
+}
+
+.Navbar .btn button{
+    height: 50px;
+    width: 140px;
+    border-radius: 40px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+.Navbar .btn button:hover{
+    background-color: #f2f2f2;
+}
+.Navbar .btn button a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 900;
+}
+.Navbar .btn button:hover a{
+    color: #000000;
+}
+.Navbar .btn button:hover{
+    background-color:#ffffff;
+}
+
+/* Banner */
+.banner{
+    margin-top: 150px;
+    height: 1750px;
+    width: 100%;
+    
+    justify-content: space-evenly;
+}
+h3{
+    letter-spacing: 1px;
+}
+
+/* div1 start from here */
+.div1{
+    display: flex;
+    margin-top: 0px;
+    height: 270px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 280px;
+    width: 200px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+.item:hover{
+    background-color:#090909f1;   
+}
+.item p{
+    text-align: center;
+    color: white;
+    margin-top: 17px;
+}
+.pic{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("The\ Sound\ of\ Delhi.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.pic1{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/chalate\ chalate.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+#play1 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.item:hover #play1 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play1 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic2{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/dhadak.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#play2 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.item:hover #play2 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play2 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+
+}
+.pic3{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+   background-image: url("png/kalank2.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+#play3 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play3 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play3 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+
+}
+.pic4{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/hamari\ adhuri\ kahani.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#play4 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play4 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play4 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+/* div2 start from here */
+.div2{
+    display: flex;
+    margin-top: 30px;
+    height: 270px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.play .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover .play .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+.play .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic5{
+    height:160px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/arjit.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.pic6{
+    height:160px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/kk.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    
+}.pic7{
+    height:160px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/shreya\ ghoshal.jpg");
+    background-size: cover;
+    border-radius:50%;
+}
+
+.pic8{
+    height:160px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/AS.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+/* div3 start from here */
+.div3{
+    display: flex;
+    margin-top: 30px;
+    height: 270px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pic9{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/mai\ tera\ hero.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play9 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play9 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play9 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.pic10{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/mai\ tera\ bf.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play10 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play10 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play10 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+#play10 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play10 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play10 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.pic11{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/D.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play11 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play11 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play11 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.pic12{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/suraj\ duba\ hai.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play12 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play12 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play12 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+/* div4 strt from here */
+h3{
+    margin: 30px 30px 30px 30px;
+    color: #ffffff;
+}
+.div4{
+    display: flex;
+    margin-top: 30px;
+    height: 270px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pic13{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/ved\ tuza.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play13 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play13 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play13 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic14{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/virat.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play14 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play14 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play14 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic15{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/man\ dhaga.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play15 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play15 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play15 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic16{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/mitawa.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play16 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play16 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play16 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+/* div5 strt from here */
+.div5{
+    display: flex;
+    margin-top: 30px;
+    height: 270px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pic17{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/sia.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play17 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play17 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play17 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic18{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/justin\ bieber.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play18 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play18 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play18 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic19{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/if\ you\ belive.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play19 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play19 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play19 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.pic20{
+    height:180px ;
+    width: 160px;
+    margin: 25px 20px 10px 20px;
+    background-image: url("png/at\ my\ wort.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+}
+#play20 .fa{
+    margin: 130px 0 0 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.4s;
+    
+}
+.item:hover #play20 .fa{
+    opacity: 1;
+    transform: translate(0, -5px);
+}
+#play20 .fa i{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+/* Footer start from here */
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color:#131212 ;
+    border: 2px solid #131212;
+    padding-top: 30px;
+}
+.footer hr{
+    color: rgba(0, 0, 0, 0.606);
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height:250px ;
+}
+.foot ul{
+   list-style: none;
+}
+.foot a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.533);
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.foot p{
+    margin-top: 15px;
+}
+.foot a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+.foot h4{
+    margin-bottom: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+.copyright{
+    
+    text-align: center;
+    color:rgba(255, 255, 255, 0.533);
+}
+
+
